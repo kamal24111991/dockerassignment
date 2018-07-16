@@ -23,6 +23,7 @@ The Assignment
 ![servicestatus](https://github.com/kamal24111991/dockerassignment/blob/master/day1/media/servicestatus.png)
 
 3. Enable Docker service to start at every machine reboot.
+   
    Solution: Sudo systemctl enable docker
 
 4. Display Docker version.
