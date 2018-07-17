@@ -10,15 +10,54 @@ Docker container.
 Assignment 1
 -----------------------
 1. Run a docker container from "hello-world" image.
+
+Sol: HelloWorld
+![HelloWorld](https://github.com/kamal24111991/dockerassignment/blob/master/day2/media1/HelloWorld.png)
+
 2. Pull "alpine" image from docker registry and see if image is available in your local image list.
+
+Sol: docker pull alpine
+![dockeralpineimages](https://github.com/kamal24111991/dockerassignment/blob/master/day2/media1/dockeralpineimages.png)
+
 3. Pull some specific version of docker "alpine" image from docker registry.
+
+Sol: docker pull alpine:3.7
+![alpinespecificversion](https://github.com/kamal24111991/dockerassignment/blob/master/day2/media1/alpinespecificversion.png)
+
 4. Run a docker container from local image "alpine" and run an inline command "ls -l" while running container.
+
+Sol: docker run -it alpine ls -l
+
+![dockerinline](https://github.com/kamal24111991/dockerassignment/blob/master/day2/media1/dockerinline.png)
+
 5. Try to take login to container created using "alpine" image.
+
+Sol: docker run -it alpine /bin/ash
+![loginofalpine%20container](https://github.com/kamal24111991/dockerassignment/blob/master/day2/media1/loginofalpine%20container.png)
+
 6. Detach yourself from the container without making it exit/container kill.
+
+Sol: ctrl +p +q
+
+
 7. Check running containers and see if you can find out the stopped containers.
+
+Sol: docker ps
+
 8. Stop running container.
+
+Sol: docker stop firstdocker
+
+![stopdockercontainer](https://github.com/kamal24111991/dockerassignment/blob/master/day2/media1/stopdockercontainer.png)
+
 9. Start container that was stopped earlier.
+
+Sol: docker start <containerid>
+![dockerstart](https://github.com/kamal24111991/dockerassignment/blob/master/day2/media1/dockerstart.png)
+
 10. Try to remove "alpine" image from your local system.
+
+![removeimages](https://github.com/kamal24111991/dockerassignment/blob/master/day2/media1/removeimages.png)
 
 Assignment 2
 ---------------------
