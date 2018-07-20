@@ -81,7 +81,9 @@ Website up and running
 15. Delete docker container and image from local.
 
 #docker stop kamal:dockerweb
+
 #docker rm kamal:dockerweb
+
 #docker rmi kamal:dockerweb
 
 
