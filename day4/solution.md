@@ -15,6 +15,10 @@ var os = require("os");
 var hostname = os.hostname();
 console.log("hello from " + hostname);
 
+Created Index.js file in local directory of local machine and created Dockerfile.
+https://github.com/kamal24111991/dockerassignment/blob/master/day4/assignment1/index.js
+
+
 2. Create a file named Dockerfile and write code as per the steps mentioned.
 
 * Use alpine image.
@@ -24,10 +28,20 @@ console.log("hello from " + hostname);
 * change your working directory to /app
 * specify the default command to be run upon container creation as mentioned below.
 	node index.js
+
+        Solution: Docker file link 
+	      https://github.com/kamal24111991/dockerassignment/blob/master/day4/assignment1/Dockerfile
+	
 	
 3. Build image from Dockerfile.
-4. Tag image with name "hello:v0.1"
 
+        Solution: docker build -t nodejs .
+     ![dockerimagebuild](https://github.com/kamal24111991/dockerassignment/blob/master/day4/media/dockerimagebuild.png)
+
+4. Tag image with name "hello:v0.1"
+        Solution: docker image tag nodejs hello:v0.1
+	![TAG](https://github.com/kamal24111991/dockerassignment/blob/master/day4/media/TAG.png)
+	  
 Assignment 2
 -----------------------
 1. Create a DockerFile.
