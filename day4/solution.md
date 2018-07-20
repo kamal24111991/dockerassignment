@@ -9,8 +9,6 @@ Assignment 1
 -------------------
 1. Create a file named index.js with below content.
 
-https://github.com/kamal24111991/dockerassignment/blob/master/day4/assignment1/index.js
-
 index.js
 ----------------
 var os = require("os");
@@ -63,7 +61,8 @@ Assignment 2
 	 https://github.com/kamal24111991/dockerassignment/blob/master/day4/assignment2/Dockerfile
 	           
 		    Index.html link:
-          https://github.com/kamal24111991/dockerassignment/blob/master/day4/assignment2/index.html
+
+       https://github.com/kamal24111991/dockerassignment/blob/master/day4/assignment2/index.html
 		  
 
 12. Build your dockerfile and tag it with "yourname:docker-web"
