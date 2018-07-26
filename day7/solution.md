@@ -35,4 +35,39 @@ Add environment variables named "MYSQL_ROOT_PASSWORD", "MYSQL_DATABASE", "MYSQL_
 At last add a dependency of db service in wordpress service.
 
 save the file and build docker-compose.yaml and create containers for wordpress and db machine.
+
+Solution
+------------
+Link : https://github.com/kamal24111991/dockerassignment/blob/master/day7/docker-compose.yaml
 ```
+version: '3'
+services:
+  wordpress:
+      image: wordpress:latest
+      ports:
+          - "8080:80"
+      restart: on-failure
+      environment:
+          WORDPRESS_DB_HOST: database:3306
+          WORDPRESS_DB_USER: wordpress
+          WORDPRESS_DB_PASSWORD: wordpress
+      volumes:
+          - WORDPRESS_DATA:/var/lib/wordpress
+      depends_on:
+          - database
+  database:
+      image: mysql:5.7
+      volumes:
+          - MYSQL_DATA:/var/lib/mysql
+      restart: on-failure
+      environment:
+          MYSQL_ROOT_PASSWORD: wordpress1
+          MYSQL_DATABASE: wordpress
+          MYSQL_USER: wordpress
+          MYSQL_PASSWORD: wordpress
+volumes:
+  WORDPRESS_DATA:
+  MYSQL_DATA:
+  ```
+  
+  
