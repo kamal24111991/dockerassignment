@@ -60,8 +60,8 @@ services:
       - databases
 ```
     
-    ![day6_1](https://github.com/kamal24111991/dockerassignment/blob/master/day6/media/day6_1.png)
-    ![day6_2](https://github.com/kamal24111991/dockerassignment/blob/master/day6/media/day6_2.png)
+  ![day6_1](https://github.com/kamal24111991/dockerassignment/blob/master/day6/media/day6_1.png)
+   ![day6_2](https://github.com/kamal24111991/dockerassignment/blob/master/day6/media/day6_2.png)
 
 * Verify nginx service is up and is accessible on machine.
  Solution:
