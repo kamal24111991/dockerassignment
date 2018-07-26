@@ -69,5 +69,13 @@ volumes:
   WORDPRESS_DATA:
   MYSQL_DATA:
   ```
+ # docker-compose up -d
+ 
+ ![day7_1](https://github.com/kamal24111991/dockerassignment/blob/master/day7/media/day7_1.png)
   
+  # Wordpress website is up and running
   
+  ![day7_2](https://github.com/kamal24111991/dockerassignment/blob/master/day7/media/day7_2.png)
+  
+  # Admin page
+  ![day7_3](https://github.com/kamal24111991/dockerassignment/blob/master/day7/media/day7_3.png)
