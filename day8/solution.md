@@ -53,6 +53,10 @@ Scale nginx service to 2 containers
 
 
 
+##########################################################################################################################
+
+
+
 Attach ECS services to application load balancer.
 
 Step1: Create a load balancer 
