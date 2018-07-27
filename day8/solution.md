@@ -8,7 +8,7 @@ Create an ECS cluster
 Setup 2 instances cluster 
 
 ```
-created a clusterer named "cluster" with 2 t2.small instances 
+created a cluster named "cluster" with 2 t2.small instances 
 ```
 ![day8_1](https://github.com/kamal24111991/dockerassignment/blob/master/day8/media/day8_1.png)
 
